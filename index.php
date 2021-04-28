@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Index</title>
+</head>
+<body>
+	<a href="./fr/"> Français </a>
+	<br>
+	<a href="./fr/"> English </a>
+</body>
+</html>
