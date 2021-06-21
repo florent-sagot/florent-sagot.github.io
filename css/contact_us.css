@@ -1,8 +1,78 @@
 
-#i6 {
+#i5 {
 	background-color: #4a748c;
 }
 
 #i8 {
 	background-color: #4a748c;
+}
+
+#content {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+
+	justify-content: space-around;
+
+	min-width: 825px;
+
+	overflow: hidden;
+}
+
+.section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	justify-content: space-between;
+
+	padding: 1em;
+	margin-bottom: 1em;
+
+	background-color: rgba(255, 255, 255, 0.25);
+	box-shadow: 0 0 10px rgba(175, 175, 175, 0.75);
+}
+
+.section_title {
+	margin: 0;
+
+	font-size: 1.3em;
+}
+
+.section_content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	justify-content: space-between;
+
+	padding: 1em;
+	border-radius: 25px;
+}
+
+.subsection {
+	display: flex;
+
+	flex-direction: column;
+	align-items: center;
+
+	padding: 1em;
+
+	margin: 1em;
+
+	background-color: rgba(255, 255, 255, 0.5);
+
+	flex: 1;
+	width: 17.5em;
+}
+
+.subsection_title {
+	padding-bottom: 0.5em;
+
+	margin: 0;
+	font-size: 1.3em;
+}
+
+.mail:hover {
+	color: #4a748c;
 }

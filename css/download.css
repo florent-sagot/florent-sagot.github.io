@@ -7,7 +7,6 @@
 	background-color: #4a748c;
 }
 
-
 #content {
 	justify-content: space-around;
 
@@ -47,22 +46,67 @@
 	border-radius: 25px;
 }
 
+.subsection {
+	display: flex;
+
+	flex-direction: column;
+	align-items: flex-start;
+
+	padding-right: 2em;
+	padding-left: 2em;
+
+	margin: 1em;
+
+	/* border-radius: 25px; */
+
+	background-color: rgba(255, 255, 255, 0.5);
+
+	flex: 1;
+	padding: 1em;
+}
+
+.subsection_title {
+	padding-bottom: 0.5em;
+
+	margin: 0;
+	font-size: 1.3em;
+}
+
+.subsection_content {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+
+	justify-content: space-between;
+
+	border-radius: 25px;
+}
 
 #download {
 	width: 25%;
 }
 
 #releases {
-	width: 50%;
+	width: 25%;
 }
-
 
 
 .rel {
 	color: black;
+
 	margin: 0;
-	padding: 0.25em;
+
+	padding: 0.5em;
+	padding-left: 2em;
+	padding-right: 2em;
 }
+.rel:hover {
+	color: #4a748c;
+}
+.rel:active {
+	color: #2e3440;
+}
+
 
 
 .downloadButton {
